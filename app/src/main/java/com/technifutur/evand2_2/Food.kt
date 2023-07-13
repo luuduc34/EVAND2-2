@@ -7,4 +7,4 @@ enum class Type {
     home
 }
 
-data class Food(val intitule:String, val quantite: Int, val type: Type)
+data class Food(val intitule:String, val quantite: String, val type: String)
