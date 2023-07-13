@@ -34,8 +34,8 @@ class AddFragment : Fragment() {
             findNavController().navigateUp()
         }
         binding.annulerButton.setOnClickListener {
-            binding.nomText.text = null
-            binding.numberText.text = null
+           binding.nomText.text = null
+           binding.numberText.text = null
         }
 
     }
